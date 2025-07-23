@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+       <title>REGISTRATION</title>
+       <link rel="icon" type="image/x-icon" href="pictures/image7.png">
+       <body>   
+        <form>
+        <div class="background1">
+        <style>
+            body{
+                background-image: url('pictures/image3.png');
+                 background-repeat: no-repeat;
+background-size: 200% 200%;
+
+            }
+        </style>  
+            <div class="background2">
+                <img src="pictures/image1.webp"  class="background-image">
+              <div class="Registration">
+                REGISTRATION    
+              </div>
+              <table class="InputField">
+                <tr>
+                    <td><span class="Lable1">Full Name</span></td>
+                    <td><span class="Lable">Position</span></td>
+                </tr>
+                <tr>
+                    <td><input class="inputname" type="text" name="Lable" placeholder="Enter your full name" required></td>
+                    <td>
+                        <select class="dropdown" required>
+                            <option value="Select Position">Select Position</option>
+                            <option value="Software Engineer">Software Engineer</option>
+                            <option value="Data Scientist">Data Scientist</option>
+                            <option value="Product Manager">Product Manager</option>
+                            <option value="UX Designer">UX Designer</option>
+                        </select>
+                    </td>
+                </tr>
+                    <td><span class="Lable1">Email</span> </td>
+                    <td><span class="Lable">Phone Number</span></td>
+                </tr>
+                <tr>
+                <td><input class="inputemail" type="email" name="Lable" placeholder="Enter your email" required></td>
+                <td>
+                    <select class="Countrycode" required>
+                        <option value="+1">+1</option>
+                        <option value="+91">+91</option>
+                        <option value="+44">+44</option>
+                        <option value="+61">+61</option>
+                        <option value="+81">+81</option>
+                    </select>
+                </td>
+                <td><input class="inputphone" type="tel" name="Phone Number" placeholder="Enter your phone number" required></td>
+                </tr>
+                <tr>
+                    <td><span class="Lable1">Country</span></td>
+                    <td><span class="Lable">City</span></td>
+                </tr>
+                <tr>
+                     <td><input class="inputcountry" type="text" name="Country" placeholder="Enter your country" required></td>
+                    <td><input class="inputcity" type="text" name="City" placeholder="Enter your City" required></td>
+                </tr>
+                <tr>
+                    <td><span class="Lable1">Password</span></td>
+                    <td><span class="Lable">Confirm Password</span></td>
+                </tr>
+                <tr>
+                    <td><input class="inputpassword" type="password" name="Password" placeholder="Enter your password" required></td>
+                    <td><input class="inputconfirmpassword" type="password" name="Confirm Password" placeholder="Confirm your password" required></td>
+                </tr>
+                <tr>
+                <td><span class="Gender">Gender</span></td>
+                </tr>
+                <td class="radiogroup">
+                    <input type="radio" name="Gender" value="Male" required>Male
+                    <input type="radio" checked="true" name="Gender" value="Female" required> Female
+                    <input type="radio" name="Gender" value="Other" required> Other
+                    <input type="radio" name="Gender" value="Prefer not to say" required> Prefer not to say
+                </td>
+                </tr>
+                </table>
+                <div class="button">
+                    <button class="submit" type="submit">Submit</button>
+                </div>
+                <div class="login">
+                    <span class="Already">Already have an account?</span>
+                    <a href="login.html" class="LoginLink">Login</a>
+                </div>
+            </div>
+        </div>
+        </form>
+       </body>
+
+
+    </head>
+</html>

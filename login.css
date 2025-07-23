@@ -1,0 +1,108 @@
+.background1 {
+    background-image: linear-gradient(to right, rgb(166, 208, 237) 0%,rgb(47, 118, 164) 40%,rgb(255, 255, 255) 40%,rgb(255, 255, 255)100%);
+    width: 900px;
+    height: 550px;
+    display: inline-block;
+    margin-left: 300px ;
+    margin-top: 100px;
+}
+
+.background2 {
+    background-image: linear-gradient(to right, rgb(166, 208, 237) 0%,rgb(47, 118, 164) 39%, white 39%,white 100%);
+    width: 820px;
+    height: 470px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 40px ;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.background-image {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 200px;
+    margin-left: 230px;
+   
+}
+.Login {
+    display: inline-block;
+    font-size:30px;
+    font-weight: bold;
+    margin-left: 500px;
+    color: rgb(47, 118, 164);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-bottom: 20px;
+}
+
+.Lable{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-right: 20px;
+    display: inline-block;
+    margin-left: 500px;
+    border-radius: 5px;
+    border-color: #555;
+
+}   
+
+
+.button {
+    margin-top: 90px;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.submit {
+    width: 400px;
+    height: 40px;
+    background-color:  rgb(47, 118, 164);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 60px;
+   
+}
+
+.submit:hover{
+    background-color: rgb(148, 196, 228) ;
+}
+
+.submit:active{
+    opacity: 0.5;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.Already {
+    font-size: 14px;
+    color: #555;
+}
+
+.LoginLink {
+    color: rgb(47, 118, 164);
+    text-decoration: underline
+
+}
+
+.LoginLink:hover{
+    background-color: rgb(146, 197, 231);
+}
+
