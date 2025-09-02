@@ -1,0 +1,106 @@
+body {
+    background-color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.background1 {
+    max-width: 900px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(166, 208, 237) 0%, rgb(47, 118, 164) 40%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 100%);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.background2 {
+    background-image: linear-gradient(to right, rgb(166, 208, 237) 0%, rgb(47, 118, 164) 39%, white 39%, white 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+
+.background-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.Login {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(47, 118, 164);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+
+.Lable {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #555;
+}
+
+
+.submit {
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    background-color: rgb(47, 118, 164);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(148, 196, 228);
+}
+
+.submit:active {
+    opacity: 0.5;
+}
+
+
+.dont {
+    font-size: 14px;
+    color: #555;
+}
+
+.LoginLink {
+    color: rgb(47, 118, 164);
+    text-decoration: underline;
+}
+
+.LoginLink:hover {
+    background-color: rgb(146, 197, 231);
+}
+
+
+@media (max-width: 992px) {
+    .background1 {
+        background-image: linear-gradient(to bottom, rgb(166, 208, 237) 0%, rgb(47, 118, 164) 40%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 100%);
+    }
+    .background2 {
+        background-image: linear-gradient(to bottom, rgb(166, 208, 237) 0%, rgb(47, 118, 164) 39%, white 39%, white 100%);
+    }
+}
+
+@media (max-width: 576px) {
+    .Login {
+        font-size: 24px;
+    }
+}
